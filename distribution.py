@@ -42,7 +42,7 @@ text = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "'+text+'" is:')
 alpha = list('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
     
-a = text.count('a')
+a = text.count(alpha)
 if a>0:
     print((x*a) for x in alpha)
     
