@@ -41,37 +41,48 @@ import string
 text = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "'+text+'" is:')
 alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-    
+
+
+#Variables
+letters = (text.count(x) for x in alpha)
+print(list(letters))
+
+
 a = text.count('a')
-if a>0:
-    print('a'*a)
 b = text.count('b')
-if a>0:
-    print('b'*b)
 c = text.count('c')
-if c>0:
-    print('c'*c)
 d = text.count('d')
-if d>0:
-    print('d'*d)
 e = text.count('e')
-if e>0:
-    print('e'*e)
 f = text.count('f')
-if f>0:
-    print('f'*f)
 g = text.count('g')
-if g>0:
-    print('g'*g)
 h = text.count('h')
-if h>0:
-    print('h'*h)
 i = text.count('i')
-if i>0:
-    print('i'*i)
 j = text.count('j')
-if j>0:
-    print('j'*j)
+k = text.count('k')
+l = text.count('l')
+m = text.count('m')
+n = text.count('n')
+o = text.count('o')
+p = text.count('p')
+q = text.count('q')
+r = text.count('r')
+s = text.count('s')
+t = text.count('t')
+u = text.count('u')
+v = text.count('v')
+w = text.count('w')
+x = text.count('x')
+y = text.count('y')
+z = text.count('z')
+
+#variable amounts
+alphaNum = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+
+#functions
+myList = ((y*x) for y in alpha for x in alphaNum)
+print(''.join(list(myList)))
+    
+
     
     
 #b = text.count('b')
