@@ -79,7 +79,7 @@ z = text.count('z')
 alphaNum = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
 
 #functions
-myList = ((y*x) for y in alpha for x in alphaNum)
+myList = ((x*y) for x in alpha for y in alphaNum)
 print(''.join(list(myList)))
     
 
