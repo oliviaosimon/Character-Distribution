@@ -45,6 +45,33 @@ alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', '
 a = text.count('a')
 if a>0:
     print('a'*a)
+b = text.count('b')
+if a>0:
+    print('b'*b)
+c = text.count('c')
+if c>0:
+    print('c'*c)
+d = text.count('d')
+if d>0:
+    print('d'*d)
+e = text.count('e')
+if e>0:
+    print('e'*e)
+f = text.count('f')
+if f>0:
+    print('f'*f)
+g = text.count('g')
+if g>0:
+    print('g'*g)
+h = text.count('h')
+if h>0:
+    print('h'*h)
+i = text.count('i')
+if i>0:
+    print('i'*i)
+j = text.count('j')
+if j>0:
+    print('j'*j)
     
     
 #b = text.count('b')
