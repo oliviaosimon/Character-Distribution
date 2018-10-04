@@ -42,11 +42,15 @@ text = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "'+text+'" is:')
 alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+def sort_list(list1, list2): 
+  
+    zipped_pairs = zip(list2, list1) 
+  
+    z = [x for _, x in sorted(zipped_pairs, reverse=True)] 
+      
+    return z 
 
 #Variables
-letters = (text.count(x) for x in alpha)
-print(list(letters))
-
 
 a = text.count('a')
 b = text.count('b')
@@ -79,18 +83,18 @@ z = text.count('z')
 alphaNum = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
 
 #functions
-myList = ((x*y) for x in alpha for y in alphaNum)
-print(''.join(list(myList)))
     
+both = zip(alpha, alphaNum)
+for item_alpha, item_alphaNum in both:
+    myList = (list(item_alpha*item_alphaNum))
+    print(myList)
 
-    
-    
-#b = text.count('b')
-#if b>0:
-#    print('b'*b)
+#bothList = (list(both))
+# sorting
+#result = (a[0] * a[1] for a in both)
 
-
-
+sorting = (sort_list(alpha, alphaNum)) 
+print(sorting)
 
 
 
