@@ -96,5 +96,10 @@ for item_alpha, item_alphaNum in both:
 sorting = (sort_list(alpha, alphaNum)) 
 print(sorting)
 
-
+printingList = list()
+For x in alpha:
+    distribution = print((text.count(x))*x)
+While distribution > 0:
+  printingList.append(x)
+print(printingList)
 
