@@ -97,9 +97,9 @@ sorting = (sort_list(alpha, alphaNum))
 print(sorting)
 
 printingList = list()
-For x in alpha:
-    distribution = print((text.count(x))*x)
-While distribution > 0:
+for x in alpha:
+    distribution = ((text.count(x))*x)
+while distribution > 0:
   printingList.append(x)
 print(printingList)
 
