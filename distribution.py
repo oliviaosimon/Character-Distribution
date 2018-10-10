@@ -98,8 +98,9 @@ print(sorting)
 
 printingList = list()
 for x in alpha:
+    while text.count(x) > 0:
+        printingList.append(x)
     distribution = ((text.count(x))*x)
-while distribution > 0:
-  printingList.append(x)
+
 print(printingList)
 
