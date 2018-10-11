@@ -41,18 +41,15 @@ import string
 text = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "'+text+'" is:')
 alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-
-
-
 text = list(text)
-#variable amounts
+printingList = list() #workspace to add to and print all together
 
-printingList = list()
+
 for x in alpha:
     while text.count(x) > 0:
         distribution = ((text.count(x))*x)
     printingList.append(distribution)
 
 
-print(printingList)
+print(''.join(printingList))
 
