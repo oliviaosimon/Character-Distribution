@@ -42,13 +42,13 @@ text = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "'+text+'" is:')
 alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-def sort_list(list1, list2): 
+#def sort_list(list1, list2): 
   
-    zipped_pairs = zip(list2, list1) 
+    #zipped_pairs = zip(list2, list1) 
   
-    z = [x for _, x in sorted(zipped_pairs, reverse=True)] 
+    #z = [x for _, x in sorted(zipped_pairs, reverse=True)] 
       
-    return z 
+    #return z 
 
 #Variables
 
