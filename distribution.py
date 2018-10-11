@@ -93,8 +93,8 @@ alphaNum = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w,
 # sorting
 #result = (a[0] * a[1] for a in both)
 
-sorting = (sort_list(alpha, alphaNum)) 
-print(sorting)
+#sorting = (sort_list(alpha, alphaNum)) 
+#print(sorting)
 
 printingList = list()
 for x in alpha:
