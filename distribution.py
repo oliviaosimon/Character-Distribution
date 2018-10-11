@@ -50,6 +50,6 @@ for x in alpha:
         distribution = ((text.count(x))*x)
     printingList.append(distribution)
 
-
+printingList.sort(reverse = true) 
 print(''.join(printingList))
 
