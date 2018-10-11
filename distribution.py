@@ -44,14 +44,6 @@ text = list(text)
 printingList = list() #workspace to add to and print all together
 
 
-for x in alpha:
-    while text.count(x) > 0:
-        distribution = str((text.count(x))*x)
-    printingList.append(distribution)
-
-printingList.sort(reverse = true) 
-print(''.join(printingList))
-
 
 
 t = ""
@@ -62,5 +54,5 @@ for x in alpha:
         printingList.append(t)
 printingList.sort()
 n = (sorted(printingl=List, key = len, reverse = True))
-for y in printingLisft:
-    print(z)
+for y in printingList:
+    print(y)
