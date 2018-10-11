@@ -52,3 +52,15 @@ for x in alpha:
 printingList.sort(reverse = true) 
 print(''.join(printingList))
 
+
+
+t = ""
+w = []
+for x in alpha:
+    if text.count(x) > 0:
+        distribution = (text.count(x))*(bx)
+        printingList.append(t)
+printingList.sort()
+n = (sorted(printingl=List, key = len, reverse = True))
+for y in printingLisft:
+    print(z)
