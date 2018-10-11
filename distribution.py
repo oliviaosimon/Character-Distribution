@@ -82,25 +82,12 @@ z = text.count('z')
 #variable amounts
 alphaNum = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
 
-#functions
-    
-#both = zip(alpha, alphaNum)
-#for item_alpha, item_alphaNum in both:
-    #myList = (list(item_alpha*item_alphaNum))
-    #print(myList)
-
-#bothList = (list(both))
-# sorting
-#result = (a[0] * a[1] for a in both)
-
-#sorting = (sort_list(alpha, alphaNum)) 
-#print(sorting)
-
 printingList = list()
 for x in alpha:
     while text.count(x) > 0:
-        printingList.append(x)
-    distribution = ((text.count(x))*x)
+        distribution = ((text.count(x))*x)
+    printingList.append(x)
+
 
 print(printingList)
 
