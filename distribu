@@ -46,12 +46,11 @@ printingList = list() #workspace to add to and print all together
 
 
 
-t = ""
-w = []
+
 for x in alpha:
     if text.count(x) > 0:
         distribution = (text.count(x))*(x)
-        printingList.append(t)
+        printingList.append(printingList)
 printingList.sort()
 printList = (sorted(printingList, key = len, reverse = True))
 print(printList)
