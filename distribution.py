@@ -53,6 +53,6 @@ for x in alpha:
         distribution = (text.count(x))*(x)
         printingList.append(t)
 printingList.sort()
-n = (sorted(printingl=List, key = len, reverse = True))
+n = (sorted(printingList, key = len, reverse = True))
 for y in printingList:
     print(y)
