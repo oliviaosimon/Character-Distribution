@@ -36,23 +36,19 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
-
-text = input("Please enter a string of text (the bigger the better): ").lower()
+text = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "'+text+'" is:')
-alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+text=text.lower()
 text = list(text)
+alpha = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 printingList = list() #workspace to add to and print all together
 
-
-
-
-t = ""
-w = []
-for x in alpha:
-    if text.count(x) > 0:
-        distribution = (text.count(x))*(x)
-        printingList.append(t)
+for letter in alpha:
+    if text.count(letter) > 0:
+        distribution = (text.count(letter))*(letter)
+        printingList.append(distribution)
 printingList.sort()
-n = (sorted(printingList, key = len, reverse = True))
-for y in printingList:
-    print(y)
+printList = (sorted(printingList, key = len, reverse = True))
+for x in printList:
+    print(x)
+
