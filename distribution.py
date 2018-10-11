@@ -47,7 +47,7 @@ printingList = list() #workspace to add to and print all together
 
 for x in alpha:
     while text.count(x) > 0:
-        distribution = ((text.count(x))*x)
+        distribution = str((text.count(x))*x)
     printingList.append(distribution)
 
 printingList.sort(reverse = true) 
