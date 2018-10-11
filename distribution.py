@@ -84,10 +84,10 @@ alphaNum = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w,
 
 #functions
     
-both = zip(alpha, alphaNum)
-for item_alpha, item_alphaNum in both:
-    myList = (list(item_alpha*item_alphaNum))
-    print(myList)
+#both = zip(alpha, alphaNum)
+#for item_alpha, item_alphaNum in both:
+    #myList = (list(item_alpha*item_alphaNum))
+    #print(myList)
 
 #bothList = (list(both))
 # sorting
