@@ -53,5 +53,5 @@ for x in alpha:
         distribution = (text.count(x))*(x)
         printingList.append(t)
 printingList.sort()
-n = (sorted(printingList, key = len, reverse = True))
-print(printingList)
+printList = (sorted(printingList, key = len, reverse = True))
+print(printList)
