@@ -50,7 +50,8 @@ for letter in alpha:
         printingList.append(distribution)
 printingList.sort()
 printList = (sorted(printingList, key = len, reverse = True))
-print(printList)
+for x in printList:
+    print(x)
 
 
 
